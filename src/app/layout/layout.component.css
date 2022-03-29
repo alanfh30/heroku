@@ -1,33 +1,10 @@
-.general{
-    box-sizing: border-box; /* hack para box model */
-    scroll-snap-type: y mandatory; /*Hacer scroll snap hacia abajo, cuando das scroll se va  ala otra seccion*/
-}
 
-/*Scroll-snap
-.servicios, .navegacion-principal, .formulario{
-    scroll-snap-align: center ;
-    scroll-snap-stop: always;
-}*/
-
-*, *:before, *:after {  /*Hack box-model, que respete el tamaño*/
-    box-sizing: inherit;
-}
 
 .contenido_home{
     font-size: 16px; /* 1rem=10px*/
     font-family: 'Krub', sans-serif;
 }
 
-.contenedor{
-    max-width: 120rem;
-    margin: 0 auto;
-}
-
-@media (min-width: 480px){
-    .boton{
-        width:auto;
-    }
- }
 
 
 
@@ -54,18 +31,7 @@ h1,h2,h3{
     background-color: #004a9f;
 }
 
-.navegacion-principal{
-    
-    flex-direction: column;
-}
 
-
-@media ( min-width:480px ) {
-    .navegacion-principal{
-        flex-direction: row;
-        justify-content: space-between;
-    }
-}
 
 
 .navegacion-principal a{
