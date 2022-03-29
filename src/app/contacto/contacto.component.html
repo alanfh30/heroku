@@ -1,45 +1,52 @@
 <app-layout></app-layout>
 
-<section>
-<br>
-<br>
-    <form class="formulario">
-        <fieldset>
-            <legend>Contáctame llenando todos los campos</legend>
-            
+<div class="row ">
+  <div class="col-8 form">
+          <legend class="legend">Contáctame llenando todos los campos</legend>
+          
 
-           
-            <div class="contenedor-campos">
-            
-                
-                    <mat-form-field appearance="outline">
-                        <mat-label>Nombre</mat-label>
-                        <input matInput>
-                      </mat-form-field>
-                      
+          <form class="formulario">
 
-                    <mat-form-field appearance="outline">
-                        <mat-label>Telefono</mat-label>
-                        <input matInput>
-                      </mat-form-field>
+          <div class="contenedor-campos col-12">
+          
+              <div class="row">
+                  <mat-form-field appearance="outline">
+                      <mat-label>Nombre</mat-label>
+                      <input matInput>
+                    </mat-form-field>
+              </div>
 
-                    <mat-form-field appearance="outline">
-                        <mat-label>Email</mat-label>
-                        <input matInput>
-                      </mat-form-field>
+              <div class="row">
+                  <mat-form-field appearance="outline">
+                      <mat-label>Telefono</mat-label>
+                      <input type="number" matInput>
+                    </mat-form-field>
+                  </div>
 
-                    <mat-form-field appearance="outline">
-                        <mat-label>Textarea</mat-label>
-                        <textarea matInput></textarea>
-                      </mat-form-field>
-                      
-            </div> <!--campos-->
+                <div class="row">
+                  <mat-form-field appearance="outline">
+                      <mat-label>Email</mat-label>
+                      <input type="email" matInput>
+                    </mat-form-field>
+                  </div>
 
-            <div class="alinear-derecha flex">
-                <button mat-raised-button color="primary">Enviar</button>
-            </div>
-
-        </fieldset>
-    </form>
-
-</section>
+                <div class="row">
+                  <mat-form-field appearance="outline">
+                      <mat-label>Comentario</mat-label>
+                      <textarea matInput></textarea>
+                    </mat-form-field>
+                  </div>
+                  
+                  <div class="row">
+                    <button mat-button>Enviar</button>
+                  </div>
+    
+        </div>
+      </form>
+  
+  </div> 
+  
+    <div class="contacto col-4">
+      <p>holas</p>
+    </div>
+</div>
